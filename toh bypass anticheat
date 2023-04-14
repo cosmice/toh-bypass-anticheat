@@ -14,8 +14,10 @@ for i, Function in next, reg do
             end
         end
 
+if game.Players.LocalPlayer.PlayerScripts:FindFirstChild("LocalScript") and game.Players.LocalPlayer.PlayerScripts:FindFirstChild("LocalScript2") then
 local script1 = game.Players.LocalPlayer.PlayerScripts.LocalScript
 local script2 = game.Players.LocalPlayer.PlayerScripts.LocalScript2
+end
 
 local script1signal = script1.Changed
 local script2signal = script2.Changed
